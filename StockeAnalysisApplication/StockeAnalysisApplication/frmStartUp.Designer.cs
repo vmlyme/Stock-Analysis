@@ -56,7 +56,7 @@
             this.panelControl1.Controls.Add(this.simpleButton1);
             this.panelControl1.Controls.Add(this.labelControl1);
             this.panelControl1.Location = new System.Drawing.Point(16, 90);
-            this.panelControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelControl1.Margin = new System.Windows.Forms.Padding(4);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(745, 203);
             this.panelControl1.TabIndex = 1;
@@ -65,7 +65,7 @@
             // textEdit1
             // 
             this.textEdit1.Location = new System.Drawing.Point(198, 104);
-            this.textEdit1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textEdit1.Margin = new System.Windows.Forms.Padding(4);
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Size = new System.Drawing.Size(193, 22);
             this.textEdit1.TabIndex = 2;
@@ -73,17 +73,18 @@
             // simpleButton1
             // 
             this.simpleButton1.Location = new System.Drawing.Point(414, 101);
-            this.simpleButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.simpleButton1.Margin = new System.Windows.Forms.Padding(4);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(100, 28);
             this.simpleButton1.TabIndex = 1;
             this.simpleButton1.Text = "Browser";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // labelControl1
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 15F);
             this.labelControl1.Location = new System.Drawing.Point(180, 54);
-            this.labelControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(334, 30);
             this.labelControl1.TabIndex = 0;
@@ -100,7 +101,7 @@
             this.ClientSize = new System.Drawing.Size(777, 442);
             this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmStartUp";
             this.Text = "Start Up";
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
