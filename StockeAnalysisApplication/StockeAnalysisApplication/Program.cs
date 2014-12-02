@@ -20,7 +20,7 @@ namespace StockeAnalysisApplication
             DevExpress.UserSkins.BonusSkins.Register();
             UserLookAndFeel.Default.SetSkinStyle("DevExpress Style");
 
-            Application.Run(new frmStartUp());
+            Application.Run(new frmStockCluster());
         }
     }
 }
