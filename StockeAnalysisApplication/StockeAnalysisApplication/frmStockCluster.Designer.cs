@@ -147,7 +147,7 @@
             this.panelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
             this.panelControl1.Location = new System.Drawing.Point(124, 78);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(642, 378);
+            this.panelControl1.Size = new System.Drawing.Size(642, 319);
             this.panelControl1.TabIndex = 11;
             // 
             // frmStockCluster

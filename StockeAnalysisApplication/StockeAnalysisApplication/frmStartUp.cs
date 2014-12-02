@@ -24,7 +24,22 @@ namespace StockeAnalysisApplication
         {
 
         }
+        
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+<<<<<<< HEAD
+            InitializeComponent();
+        }
 
+        private void panelControl1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+=======
+            openFileDialog1
+        }
+>>>>>>> origin/master
         
     }
 }

@@ -38,5 +38,4 @@ D:\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplicatio
 D:\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.exe
 D:\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.pdb
 C:\Users\DiTi\Documents\GitHub\Stock-Analysis\StockeAnalysisApplication\StockeAnalysisApplication\bin\Debug\StockeAnalysisApplication.exe.config
-C:\Users\DiTi\Documents\GitHub\Stock-Analysis\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.exe
-C:\Users\DiTi\Documents\GitHub\Stock-Analysis\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.pdb
+C:\Users\luubi_000\Documents\GitHub\Stock-Analysis\StockeAnalysisApplication\StockeAnalysisApplication\bin\Debug\StockeAnalysisApplication.exe.config
