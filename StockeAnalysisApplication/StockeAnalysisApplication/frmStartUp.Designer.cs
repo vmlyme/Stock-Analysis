@@ -33,11 +33,8 @@
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-<<<<<<< HEAD
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-=======
             this.button1 = new System.Windows.Forms.Button();
->>>>>>> fcf91ca3068b04ca24e5075a996f597e2424e303
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
@@ -56,11 +53,8 @@
             // 
             // panelControl1
             // 
-<<<<<<< HEAD
             this.panelControl1.Controls.Add(this.simpleButton1);
-=======
             this.panelControl1.Controls.Add(this.button1);
->>>>>>> fcf91ca3068b04ca24e5075a996f597e2424e303
             this.panelControl1.Controls.Add(this.textEdit1);
             this.panelControl1.Controls.Add(this.labelControl1);
             this.panelControl1.Location = new System.Drawing.Point(16, 90);
@@ -92,7 +86,6 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-<<<<<<< HEAD
             // simpleButton1
             // 
             this.simpleButton1.Location = new System.Drawing.Point(336, 87);
@@ -100,7 +93,6 @@
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 3;
             this.simpleButton1.Text = "simpleButton1";
-=======
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(433, 101);
@@ -110,7 +102,6 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
->>>>>>> fcf91ca3068b04ca24e5075a996f597e2424e303
             // 
             // frmStartUp
             // 
@@ -138,10 +129,7 @@
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.TextEdit textEdit1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-<<<<<<< HEAD
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
-=======
         private System.Windows.Forms.Button button1;
->>>>>>> fcf91ca3068b04ca24e5075a996f597e2424e303
     }
 }
