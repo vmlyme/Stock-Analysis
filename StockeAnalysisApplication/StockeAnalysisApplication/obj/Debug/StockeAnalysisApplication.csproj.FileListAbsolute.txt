@@ -1,0 +1,39 @@
+C:\Users\trilm208\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\bin\Debug\StockeAnalysisApplication.exe
+C:\Users\trilm208\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\bin\Debug\StockeAnalysisApplication.pdb
+C:\Users\trilm208\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.csprojResolveAssemblyReference.cache
+C:\Users\trilm208\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.Properties.Resources.resources
+C:\Users\trilm208\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.csproj.GenerateResource.Cache
+C:\Users\trilm208\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.exe.licenses
+C:\Users\trilm208\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.exe
+C:\Users\trilm208\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.pdb
+C:\Users\trilm208\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.frmStartUp.resources
+C:\Users\trilm208\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.frmStockCluster.resources
+C:\Users\DiTi\Dropbox\Thesis (1)\Application\StockeAnalysisApplication\StockeAnalysisApplication\bin\Debug\StockeAnalysisApplication.exe.config
+C:\Users\DiTi\Dropbox\Thesis (1)\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.exe
+C:\Users\DiTi\Dropbox\Thesis (1)\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.pdb
+C:\Users\DiTi\Dropbox\Thesis (1)\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.csprojResolveAssemblyReference.cache
+C:\Users\DiTi\Dropbox\Thesis (1)\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.frmStartUp.resources
+C:\Users\DiTi\Dropbox\Thesis (1)\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.Properties.Resources.resources
+C:\Users\DiTi\Dropbox\Thesis (1)\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.frmStockCluster.resources
+C:\Users\DiTi\Dropbox\Thesis (1)\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.csproj.GenerateResource.Cache
+C:\Users\DiTi\Dropbox\Thesis (1)\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.exe.licenses
+C:\Users\trilm208\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\bin\Debug\StockeAnalysisApplication.exe.config
+E:\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\bin\Debug\StockeAnalysisApplication.exe.config
+E:\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.exe
+E:\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.pdb
+C:\Users\luubi_000\Documents\Visual Studio 2013\Projects\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.csprojResolveAssemblyReference.cache
+C:\Users\luubi_000\Documents\Visual Studio 2013\Projects\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.frmStartUp.resources
+C:\Users\luubi_000\Documents\Visual Studio 2013\Projects\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.Properties.Resources.resources
+C:\Users\luubi_000\Documents\Visual Studio 2013\Projects\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.frmStockCluster.resources
+C:\Users\luubi_000\Documents\Visual Studio 2013\Projects\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.csproj.GenerateResource.Cache
+D:\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\bin\Debug\StockeAnalysisApplication.exe.config
+D:\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\bin\Debug\StockeAnalysisApplication.exe
+D:\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\bin\Debug\StockeAnalysisApplication.pdb
+D:\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.csprojResolveAssemblyReference.cache
+D:\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.frmStartUp.resources
+D:\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.Properties.Resources.resources
+D:\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.frmStockCluster.resources
+D:\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.csproj.GenerateResource.Cache
+D:\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.exe.licenses
+D:\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.exe
+D:\Dropbox\Thesis\Application\StockeAnalysisApplication\StockeAnalysisApplication\obj\Debug\StockeAnalysisApplication.pdb
