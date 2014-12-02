@@ -49,29 +49,26 @@
             // 
             // btnAnalysis
             // 
-            this.btnAnalysis.Location = new System.Drawing.Point(16, 431);
-            this.btnAnalysis.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAnalysis.Location = new System.Drawing.Point(11, 350);
             this.btnAnalysis.Name = "btnAnalysis";
-            this.btnAnalysis.Size = new System.Drawing.Size(135, 25);
+            this.btnAnalysis.Size = new System.Drawing.Size(101, 20);
             this.btnAnalysis.TabIndex = 1;
             this.btnAnalysis.Text = "Analysis Cluster";
             this.btnAnalysis.Click += new System.EventHandler(this.btnAnalysis_Click);
             // 
             // Algorithm
             // 
-            this.Algorithm.Location = new System.Drawing.Point(675, 14);
-            this.Algorithm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Algorithm.Location = new System.Drawing.Point(506, 11);
             this.Algorithm.Name = "Algorithm";
-            this.Algorithm.Size = new System.Drawing.Size(99, 16);
+            this.Algorithm.Size = new System.Drawing.Size(82, 13);
             this.Algorithm.TabIndex = 3;
             this.Algorithm.Text = "Cluster Algorithm";
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(903, 14);
-            this.labelControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.labelControl1.Location = new System.Drawing.Point(677, 11);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(107, 16);
+            this.labelControl1.Size = new System.Drawing.Size(89, 13);
             this.labelControl1.TabIndex = 5;
             this.labelControl1.Text = "Distance Algorithm";
             // 
@@ -87,91 +84,81 @@
             "Stock 6",
             "Stock 7",
             "..."});
-            this.cklStockList.Location = new System.Drawing.Point(16, 160);
-            this.cklStockList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cklStockList.Location = new System.Drawing.Point(12, 130);
             this.cklStockList.Name = "cklStockList";
-            this.cklStockList.Size = new System.Drawing.Size(132, 259);
+            this.cklStockList.Size = new System.Drawing.Size(100, 199);
             this.cklStockList.TabIndex = 6;
             // 
             // btnCheckAll
             // 
-            this.btnCheckAll.Location = new System.Drawing.Point(17, 124);
-            this.btnCheckAll.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCheckAll.Location = new System.Drawing.Point(13, 101);
             this.btnCheckAll.Name = "btnCheckAll";
-            this.btnCheckAll.Size = new System.Drawing.Size(133, 28);
+            this.btnCheckAll.Size = new System.Drawing.Size(100, 23);
             this.btnCheckAll.TabIndex = 7;
             this.btnCheckAll.Text = "Check All Stock";
             // 
             // btnSeeChart
             // 
-            this.btnSeeChart.Location = new System.Drawing.Point(16, 463);
-            this.btnSeeChart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSeeChart.Location = new System.Drawing.Point(12, 376);
             this.btnSeeChart.Name = "btnSeeChart";
-            this.btnSeeChart.Size = new System.Drawing.Size(135, 28);
+            this.btnSeeChart.Size = new System.Drawing.Size(101, 23);
             this.btnSeeChart.TabIndex = 8;
             this.btnSeeChart.Text = "See chart";
             this.btnSeeChart.Click += new System.EventHandler(this.btnSeeChart_Click);
             // 
             // txtSearch
             // 
-            this.txtSearch.Location = new System.Drawing.Point(16, 92);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSearch.Location = new System.Drawing.Point(12, 75);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(133, 22);
+            this.txtSearch.Size = new System.Drawing.Size(100, 20);
             this.txtSearch.TabIndex = 9;
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(16, 69);
-            this.labelControl2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.labelControl2.Location = new System.Drawing.Point(12, 56);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(29, 16);
+            this.labelControl2.Size = new System.Drawing.Size(24, 13);
             this.labelControl2.TabIndex = 10;
             this.labelControl2.Text = "Filter";
             // 
             // panelControl1
             // 
             this.panelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
-            this.panelControl1.Location = new System.Drawing.Point(201, 96);
-            this.panelControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelControl1.Location = new System.Drawing.Point(151, 78);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(820, 314);
+            this.panelControl1.Size = new System.Drawing.Size(615, 255);
             this.panelControl1.TabIndex = 11;
             // 
             // labelControl3
             // 
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.labelControl3.Location = new System.Drawing.Point(648, 41);
-            this.labelControl3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.labelControl3.Location = new System.Drawing.Point(486, 33);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(153, 17);
+            this.labelControl3.Size = new System.Drawing.Size(127, 13);
             this.labelControl3.TabIndex = 12;
             this.labelControl3.Text = "Hierarchical Clustering";
             // 
             // labelControl4
             // 
             this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.labelControl4.Location = new System.Drawing.Point(861, 41);
-            this.labelControl4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.labelControl4.Location = new System.Drawing.Point(646, 33);
             this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(157, 17);
+            this.labelControl4.Size = new System.Drawing.Size(130, 13);
             this.labelControl4.TabIndex = 13;
             this.labelControl4.Text = "Dynamic Time Warping";
             // 
             // textEdit1
             // 
-            this.textEdit1.Location = new System.Drawing.Point(16, 17);
-            this.textEdit1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textEdit1.Location = new System.Drawing.Point(12, 14);
             this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(180, 22);
+            this.textEdit1.Size = new System.Drawing.Size(135, 20);
             this.textEdit1.TabIndex = 14;
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(221, 15);
-            this.simpleButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.simpleButton1.Location = new System.Drawing.Point(166, 12);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(100, 28);
+            this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 15;
             this.simpleButton1.Text = "Import File";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
@@ -182,9 +169,9 @@
             // 
             // frmStockCluster
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1051, 576);
+            this.ClientSize = new System.Drawing.Size(788, 468);
             this.Controls.Add(this.simpleButton1);
             this.Controls.Add(this.textEdit1);
             this.Controls.Add(this.btnSeeChart);
@@ -198,7 +185,6 @@
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.Algorithm);
             this.Controls.Add(this.btnAnalysis);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmStockCluster";
             this.Text = "Stock Cluster Program";
             ((System.ComponentModel.ISupportInitialize)(this.txtSearch.Properties)).EndInit();
