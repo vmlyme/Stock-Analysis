@@ -9,7 +9,7 @@ using System.Windows.Forms;
 using System.IO.Compression;
 //using Excel = Microsoft.Office.Interop.Excel;
 //using System.Data.OleDb;
-//using System.Globalization;
+using System.Globalization;
 using Excel;
 
 namespace StockeAnalysisApplication
@@ -34,13 +34,19 @@ namespace StockeAnalysisApplication
             
             
         }
-
+        public static DateTime DateFromExcelFormat(string ExcelCellValue)
+        {
+            IFormatProvider culture = new System.Globalization.CultureInfo("fr-FR", true);
+            string _date = ExcelCellValue.Substring(8, 2) + "/" + ExcelCellValue.Substring(5, 1) + ExcelCellValue.Substring(7, 1) +"/" + ExcelCellValue.Substring(0, 2)+ExcelCellValue.Substring(3, 2);
+            DateTime date = DateTime.Parse(_date, culture, System.Globalization.DateTimeStyles.AssumeLocal);
+            return date;
+        }
         private void simpleButton1_Click(object sender, EventArgs e)
         {
             if(openFileDialog.ShowDialog()==DialogResult.OK){
                 textEdit1.Text = openFileDialog.FileName.ToString();
             }
-            
+            //get size of excel
             foreach (var worksheet in Workbook.Worksheets(openFileDialog.FileName.ToString()))
             {
                 foreach (var row in worksheet.Rows)
@@ -56,8 +62,9 @@ namespace StockeAnalysisApplication
                 }
                 break;
             }
-            data = new string[rows+1,column+1];
             
+            //get data to array data
+            data = new string[rows + 1, column + 1];
             foreach (var worksheet in Workbook.Worksheets(openFileDialog.FileName.ToString()))
             {
                 int i = 0,j;
@@ -77,7 +84,19 @@ namespace StockeAnalysisApplication
                 }
                 break;
             }
-            MessageBox.Show("hang:="+rows.ToString() +"cot:="+ column.ToString());
+
+            //Clear StockList
+            cklStockList.Items.Clear();
+            //Add items to StockList
+
+            for(int i=1;i<rows;i++)
+            {
+                cklStockList.Items.Add(data[i,0]);
+            }
+            //Add items to date time picker
+            dateTimeBegin.Value = DateFromExcelFormat(data[0, column]);
+
+            dateTimeEnd.Value = DateFromExcelFormat(data[0, 1]);
 
             
             
