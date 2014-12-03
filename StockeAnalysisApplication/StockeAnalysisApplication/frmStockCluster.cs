@@ -22,25 +22,21 @@ namespace StockeAnalysisApplication
         }
         private string[,] data;
         private int rows = -1, column = -1;
-        private void btnAnalysis_Click(object sender, EventArgs e)
-        {
-            //show depend tree with selected parameters and alogithm
-
-        }
-
-        private void btnSeeChart_Click(object sender, EventArgs e)
-        {
-            //select a stock name-> choose a period time from... to....->show a chart of this stock that selected
-            
-            
-        }
-        public static DateTime DateFromExcelFormat(string ExcelCellValue)
+        
+        private DateTime DateFromExcelFormat(string ExcelCellValue)
         {
             IFormatProvider culture = new System.Globalization.CultureInfo("fr-FR", true);
             string _date = ExcelCellValue.Substring(8, 2) + "/" + ExcelCellValue.Substring(5, 1) + ExcelCellValue.Substring(7, 1) +"/" + ExcelCellValue.Substring(0, 2)+ExcelCellValue.Substring(3, 2);
             DateTime date = DateTime.Parse(_date, culture, System.Globalization.DateTimeStyles.AssumeLocal);
             return date;
         }
+
+        private string[,] DTW() 
+        {
+            string[,] dtw=new string[rows+1,column+1];
+            return dtw;
+        }
+
         private void simpleButton1_Click(object sender, EventArgs e)
         {
             if(openFileDialog.ShowDialog()==DialogResult.OK){
@@ -100,6 +96,19 @@ namespace StockeAnalysisApplication
 
             
             
+        }
+
+        private void btnAnalysis_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(data[0, 0]);
+
+        }
+
+        private void btnSeeChart_Click(object sender, EventArgs e)
+        {
+            //select a stock name-> choose a period time from... to....->show a chart of this stock that selected
+
+
         }
     }
 }

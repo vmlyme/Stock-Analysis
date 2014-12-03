@@ -51,7 +51,7 @@
             // 
             // btnAnalysis
             // 
-            this.btnAnalysis.Location = new System.Drawing.Point(21, 530);
+            this.btnAnalysis.Location = new System.Drawing.Point(21, 479);
             this.btnAnalysis.Margin = new System.Windows.Forms.Padding(5);
             this.btnAnalysis.Name = "btnAnalysis";
             this.btnAnalysis.Size = new System.Drawing.Size(135, 25);
@@ -106,7 +106,7 @@
             // 
             // btnSeeChart
             // 
-            this.btnSeeChart.Location = new System.Drawing.Point(21, 570);
+            this.btnSeeChart.Location = new System.Drawing.Point(21, 529);
             this.btnSeeChart.Margin = new System.Windows.Forms.Padding(5);
             this.btnSeeChart.Name = "btnSeeChart";
             this.btnSeeChart.Size = new System.Drawing.Size(135, 28);
@@ -181,7 +181,7 @@
             // openFileDialog
             // 
             this.openFileDialog.FileName = "openFileDialog";
-           
+            // 
             // dateTimeBegin
             // 
             this.dateTimeBegin.Location = new System.Drawing.Point(195, 197);
