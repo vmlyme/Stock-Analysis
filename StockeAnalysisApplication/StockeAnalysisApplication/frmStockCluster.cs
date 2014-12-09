@@ -21,6 +21,8 @@ namespace StockeAnalysisApplication
             InitializeComponent();
         }
         private string[,] data;
+        private double[,] dtw;
+        double[,] dtw_;
         private int rows = -1, column = -1;
         
         private DateTime DateFromExcelFormat(string ExcelCellValue)
@@ -30,13 +32,43 @@ namespace StockeAnalysisApplication
             DateTime date = DateTime.Parse(_date, culture, System.Globalization.DateTimeStyles.AssumeLocal);
             return date;
         }
-
-        private string[,] DTW() 
+        private double min_array(double[,] a, int x, int y)
         {
-            string[,] dtw=new string[rows+1,column+1];
-            return dtw;
+            double min = 999999;
+            for (int i = 1; i < x-1; i++)
+            {
+                for (int j = i+1; j < y; j++)
+                {
+                    min = Math.Min(min, a[i, j]);
+                }
+            }
+            return min;
         }
-
+        private double min(double a, double b, double c)
+        {
+            if (a < b && a < c) return a;
+            else if (b < a && b < c) return b;
+            else return c;
+        }
+        private double dtw_sup(int a, int b, int i, int j)
+        {
+            if (i == 0 && j == 0) return 0;
+            else if (i == 0) return double.Parse(data[a, j]) + dtw_[i, j - 1];
+            else if (j == 0) return double.Parse(data[b, i]) + dtw_[i - 1, j];
+            else return Math.Abs(double.Parse(data[a, i]) - double.Parse(data[b, j])) + min(dtw_[i - 1, j], dtw_[i, j - 1], dtw_[i - 1, j - 1]);
+        }
+        private double DTW(int a, int b, int x, int y) 
+        {
+            dtw_ = new double[y-x,y-x];
+            for (int i = 0; i < (y - x); i++) 
+            {
+                for (int j = 0; j < (y - x); j++)
+                {
+                    dtw_[i, j] = dtw_sup(a, b, i, j);
+                }
+            }
+            return dtw_[y-x-1,y-x-1];
+        }
         private void simpleButton1_Click(object sender, EventArgs e)
         {
             if(openFileDialog.ShowDialog()==DialogResult.OK){
@@ -100,7 +132,19 @@ namespace StockeAnalysisApplication
 
         private void btnAnalysis_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(data[0, 0]);
+            dtw = new double[rows, rows];
+            string test="";
+            for (int i = 1; i < rows-1; i++) 
+            {
+                for (int j = i+1; j < rows; j++)
+                {
+                    dtw[i,j] = DTW(i,j,1,column);
+                    test+=dtw[i, j].ToString()+" ";
+                }
+                test += "\n";
+            }
+            MessageBox.Show(test);
+            MessageBox.Show(min_array(dtw,rows,rows).ToString());
 
         }
 
